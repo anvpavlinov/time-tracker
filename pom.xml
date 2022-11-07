@@ -21,6 +21,13 @@
         <checkstyle.version>2.17</checkstyle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+         
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-project-info-reports-plugin</artifactId>
+      <version>3.4.1</version>
+      <type>maven-plugin</type>
+    </dependency>
 
     <modules>
         <module>core</module>
